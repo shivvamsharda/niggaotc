@@ -64,6 +64,14 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/668d3869-8f06-44ab-b52a-f362f83b7cf8) and click on Share -> Publish.
 
+## Production hosting notes
+
+- Host: Netlify or Vercel static site (set framework preset to "Other")
+- Build command: `npm run build`
+- Output directory: `dist`
+- Router: React Router `BrowserRouter`
+- SPA rewrites: `public/_redirects` (Netlify) and `vercel.json` at the repo root
+
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
